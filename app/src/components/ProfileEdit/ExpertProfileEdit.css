@@ -1,0 +1,157 @@
+.profile-edit-container {
+  height: auto;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  color: #414141;
+  width: auto;
+  /* width: 220px; */
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.input-div {
+  width: 100%;
+  font-family: HEEBO;
+  height: auto;
+}
+.input-div {
+  width: 100%;
+  font-family: HEEBO;
+  height: auto;
+}
+
+.input-div label {
+  color: #9c9ca8;
+  margin: 13px 0;
+  position: relative;
+  display: flex;
+  font-family: HEEBO;
+  display: flex;
+  flex-direction: column;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: 0.01em;
+}
+
+.input-div span {
+  padding: 10px;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: 0.2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  opacity: 0.5;
+}
+
+.input-div input {
+  margin: -3px;
+  width: 95%;
+  height: 25px;
+  text-align: right;
+  border: none;
+  background: #f8f8fa;
+  border-radius: 10px;
+  font-family: HEEBO;
+  color: #000000;
+  font-size: 16px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-div input:focus + span,
+input:not(:placeholder-shown) + span {
+  opacity: 1;
+  transform: scale(0.75) translateY(-100%) translateX(10px);
+}
+
+.input-div input:focus {
+  outline: none;
+}
+
+input-div svg {
+  display: flex;
+  align-self: flex-start;
+}
+
+.input-div textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  margin: 2px;
+  margin: 2px;
+  width: 95%;
+  /* height: 25px; */
+  text-align: right;
+  border: none;
+  background: #f8f8fa;
+  border-radius: 10px;
+  font-family: HEEBO;
+  color: #0b0b0c;
+  font-size: 16px;
+  padding: 8px 10px 12px 19px;
+}
+
+.input-div textarea:focus + span,
+textarea:not(:placeholder-shown) + span {
+  opacity: 1;
+  transform: scale(0.75) translateY(-100%) translateX(10px);
+}
+
+.input-div textarea:focus {
+  height: 100px;
+  outline: none;
+}
+
+.titles {
+  font-weight: bold;
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.meeting-kind {
+  font-family: Heebo;
+  margin-top: 20px;
+  height: 46px;
+  background: #f8f8fa;
+  border-radius: 10px;
+  border: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 7px 0px;
+  width: 100%;
+}
+
+/* 
+.save-button{
+align-self: center;
+
+} */
+
+.beta-gift {
+  width: 90%;
+}

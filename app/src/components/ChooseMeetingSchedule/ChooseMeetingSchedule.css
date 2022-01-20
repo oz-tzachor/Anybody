@@ -1,0 +1,139 @@
+.mentorcard {
+  /* display: flex; */
+
+  padding: 4px, 12px, 4px, 12px;
+}
+.mentorcardnextimg {
+  padding: 20px;
+}
+
+.pageTitle {
+  float: right;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 129.5%;
+
+  text-align: right;
+  letter-spacing: 0.01em;
+}
+
+.subTitle {
+  font-family: Heebo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.daytimebox {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.outerbox {
+  padding: 30px;
+  border: 1px solid #ececec;
+  margin: 6px;
+  border-radius: 5px;
+  width: 90%;
+  height: 0px;
+}
+.outerboxChoosed {
+  padding: 30px;
+  /* background: #1ee8b7; */
+  border: 2px solid #1ee8b7;
+  font-weight: bold;
+  margin: 6px;
+  border-radius: 5px;
+  width: 90%;
+  height: 0px;
+}
+
+.boxTitleHeading {
+  display: flex;
+  font-family: Heebo;
+  letter-spacing: 0.01em;
+  text-align: right;
+  padding-right: 10px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.01em;
+}
+
+.subDetails {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Heebo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.meetingPlace {
+  display: flex;
+  align-items: center;
+  font-family: Heebo;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.expertDetails {
+  display: flex;
+  flex-direction: row;
+  background: #f0f0f5;
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  width: 107%;
+}
+
+.expertDetailsText {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonDiv {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* .footerText {
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: underline;
+  color: #ababab;
+} */

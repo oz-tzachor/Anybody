@@ -1,0 +1,25 @@
+.hashtags {
+  overflow-x: auto;
+  /* height: 146px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: auto;
+  /* overflow-x: scroll; */
+  /* overflow-y: hidden; */
+  overflow-x: auto;
+  height: 149px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+}
+
+.newHashtag {
+  padding: 4px 12px;
+
+  background: #f3f3f3;
+  border-radius: 40px;
+}
